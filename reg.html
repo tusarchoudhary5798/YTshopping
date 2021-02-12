@@ -1,0 +1,96 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+<meta name="viewport" content="width=device-width, initial-scale=1">  
+<style>  
+body{  
+background-image: url("https://source.unsplash.com/1600x900/?computer science");
+  font-family: Calibri, Helvetica, sans-serif;  
+  background-color: pink;  
+padding-top: -10px;
+  padding-right: 500px;
+  padding-bottom: 500px;
+  padding-left: 500px;
+}  
+.container {  
+
+
+
+
+    padding: 50px;  
+  background-color: lightblue; 
+opacity: 0.8;
+
+}  
+  
+input[type=text], input[type=password], textarea {  
+  width: 100%;  
+  padding: 15px;  
+  margin: 5px 0 22px 0;  
+  display: inline-block;  
+  border: none;  
+  background: #f1f1f1;  
+}  
+input[type=text]:focus, input[type=password]:focus {  
+  background-color: orange;  
+  outline: none;  
+}  
+ div {  
+            padding: 10px 0;  
+         }  
+hr {  
+  border: 1px solid #f1f1f1;  
+  margin-bottom: 25px;  
+}  
+.registerbtn {  
+  background-color: #4CAF50;  
+  color: white;  
+  padding: 16px 20px;  
+  margin: 8px 0;  
+  border: none;  
+  cursor: pointer;  
+  width: 100%;  
+  opacity: 0.9;  
+}  
+.registerbtn:hover {  
+  o   pacity: 1;  
+}   
+</style>  
+</head>  
+<body>  
+<form action="Reg.jsp" method="post">  
+  <div class="container">  
+  <center>  <h1> Registeration Form</h1> </center>  
+  <hr>  
+   
+                                <p> 
+                                    <label for="usernamesignup" class="uname" data-icon="u">Your User_Name</label>
+                                    <input id="usernamesignup" name="User_Name" required="required" type="text" placeholder="eg. username" />
+                                </p>
+                                <p> 
+                                    <label for="passwordsignup" class="youpasswd" data-icon="p">Your Password </label>
+                                    <input id="passwordsignup" name="Password" required="required" type="password" placeholder="eg. abcd@01"/>
+                                </p>
+                             
+		 <p> 
+                                    <label for="namesignup" class="name" data-icon="u">Your Name</label>
+                                    <input id="namesignup" name="Name" required="required" type="text" placeholder="eg. name" />
+                                </p>
+   		
+                              		<p> 
+                                    <label for="phone" data-icon="p" >Enter your phone number:</label>
+				    <input type="tel" id="phone" name="Phone_No" placeholder="eg.9876543210">                              
+				 </p>
+                                
+                                  <p> 
+                                    <label for="emailsignup" class="youmail" data-icon="e" > Your Email</label>
+                                    <input id="emailsignup" name="Email" required="required" type="email" placeholder="eg. xyz@gmail.com"/> 
+                                </p>  
+    <button type="submit" class="registerbtn">Register</button> 
+<p class="change_link">  
+									Already a member ?
+									<a href="log.html" class="to_register"> Go and log in </a>
+								</p>   
+</form>  
+</body>  
+</html>
